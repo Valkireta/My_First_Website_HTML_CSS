@@ -1,0 +1,169 @@
+header{
+    font-family: 'Poppins', sans-serif;
+    background-color: blueviolet;color:white; text-align: center;text-transform: uppercase;padding: 25px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#title {
+    color:white;
+    text-align: center;
+
+}
+#menu {
+    background-color:goldenrod;
+    
+    
+}
+#menu li {            
+    list-style: none;
+    margin: 15px;
+    display: inline-block;
+}
+#menu li a {
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+.section {
+    border:2px solid rgb(179, 176, 7);
+    margin:50px;
+    padding: 30px;
+    border-radius: 8px;
+    
+
+}
+#section-1 {
+    background-color: rgba(144, 68, 206, 0.596);
+
+}
+#section-2 {
+    background-color: rgba(144, 78, 206, 0.596);
+
+}
+#section-3 {
+    background-color: rgba(144, 88, 206, 0.596);
+
+}
+#section-4 {
+    background-color: rgba(144, 98, 206, 0.596);
+
+}
+
+/* Footer */
+
+footer {
+    background-color: blueviolet;
+    color:white; 
+    text-align: center;
+    padding: 25px;
+}
+
+/* Footer Icons */
+
+i {
+    font-size: 32px;
+    margin: 15px;
+}
+
+.fa-github {
+    color: #333;
+}
+.fa-facebook {
+    color:#4267B2;
+}
+.fa-reddit {
+    color:#FF4500;
+}
+/* CSS For projects.html */
+.box{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 200px;
+    text-align: center;
+    font-size: 42px;
+}
+#box-1 {
+    background-color: violet;
+
+}
+#box-2{
+    background-color: blueviolet;
+    
+}
+#box-3 {
+    background-color: goldenrod;
+}
+
+hr {
+    height: 10px;
+    background-color: rgba(139, 33, 238, 0.301);
+}
+
+#chechkandsend {
+    text-align: center;
+}
+/* Table CSS */
+
+table{
+    width: 60%;
+    margin: 30px auto;
+
+
+}
+
+table,
+td,th {
+    border:1px solid gray ;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Form CSS */
+.form-group{
+    margin: 0 0 10px 0;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="number"],
+input[type="date"] 
+textarea{
+    display: block;
+    margin-bottom: 3px;
+    outline: none;
+    width: 30%;
+    padding: 8px;
+    border: 2px solid rgb(204, 180, 226);
+    border-radius: 3px;
+}
+
+input[type="text"]:hover, 
+input[type="email"]:hover, 
+input[type="number"]:hover,
+input[type="date"]:hover,
+textarea:hover {
+    border: 2px solid goldenrod;
+
+}
+
+input[type="submit"]{
+    background-color: goldenrod;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: black;
+    font-size: small;
+}
+.category {
+    width: 75%;
+    margin: auto;
+}
+.form-section {
+    margin-bottom: 30px;
+}

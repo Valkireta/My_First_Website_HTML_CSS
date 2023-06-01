@@ -1,3 +1,9 @@
+/* Universal selector */
+* {
+    margin: 0;
+}
+
+
 header{
     font-family: 'Poppins', sans-serif;
     background-color: blueviolet;color:white; text-align: center;text-transform: uppercase;padding: 25px;
@@ -51,6 +57,7 @@ body{
     background-color: rgba(144, 98, 206, 0.596);
 
 }
+
 
 /* Footer */
 
